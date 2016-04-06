@@ -21,8 +21,10 @@ We use `$compileProvider` and call `debugInfoEnabled` with false, turning it off
 angular
 	.module('app')
 	.config(function ($compileProvider) {
-        $compileProvider.debugInfoEnabled(true);
+        $compileProvider.debugInfoEnabled(false);
 	});
 ```
 
 Now that we've done that, you'll no longer see any classes or comments added anywhere. Awesome! A little overhead, but in the long run, makes things a lot faster.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-debug-info-readme'>Angular Disable Debug Info </a> on Learn.co and start learning to code for free.</p>
